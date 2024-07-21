@@ -1,0 +1,60 @@
+[
+  {
+    "id": 1,
+    "arrivalDate": "2021-11-18T05:00:00.000Z",
+    "departureDate": "2021-11-25T05:00:00.000Z",
+    "roomSize": "Large",
+    "roomQuantity": 2,
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@example.com",
+    "phoneNumber": "123-456-7890",
+    "streetName": "Main St",
+    "streetNumber": "123",
+    "zip": "12345",
+    "state": "CA",
+    "city": "Los Angeles",
+    "extras": {
+      "breakfast": true,
+      "tv": true,
+      "parking": false,
+      "wifi": true,
+      "balcony": false
+    },
+    "payment": "Credit Card",
+    "note": "No special requests",
+    "tags": [ "Business", "VIP" ],
+    "reminder": true,
+    "newsletter": false,
+    "confirm": true
+  },
+  {
+    "id": 2,
+    "arrivalDate": "2021-11-01T04:00:00.000Z",
+    "departureDate": "2021-11-04T04:00:00.000Z",
+    "roomSize": "Medium",
+    "roomQuantity": 1,
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "email": "jane.smith@example.com",
+    "phoneNumber": "987-654-3210",
+    "streetName": "Second St",
+    "streetNumber": "456",
+    "zip": "67890",
+    "state": "NY",
+    "city": "New York",
+    "extras": {
+      "breakfast": false,
+      "tv": true,
+      "parking": true,
+      "wifi": true,
+      "balcony": true
+    },
+    "payment": "PayPal",
+    "note": "Vegetarian meal",
+    "tags": [ "Leisure" ],
+    "reminder": false,
+    "newsletter": true,
+    "confirm": true
+  }
+]

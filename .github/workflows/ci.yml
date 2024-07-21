@@ -1,0 +1,34 @@
+name: Jest and ESLint Tests
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:  # Add this line to enable manual trigger
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16.x'
+
+      - name: Install dependencies
+        run: npm install
+        working-directory: reactproject1
+
+      - name: Run ESLint
+        run: npm run lint
+        working-directory: reactproject1
+
+      - name: Run Jest tests
+        run: npm run test
+        working-directory: reactproject1
